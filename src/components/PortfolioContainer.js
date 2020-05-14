@@ -20,7 +20,7 @@ function PortfolioContainer() {
           <Home />
         </Redirect>
       </Route>
-      <Route exact path={["/", "/home"]}>
+      <Route exact path="/home">
         <Home />
       </Route>
       <Route exact path="/about">
