@@ -1,21 +1,17 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import Home from "../pages/Home"
+import About from "../pages/About"
+import Work from "../pages/Work"
+import Contact from "../pages/Contact"
 
-function Navbar({ currentPage, handlePageChange }) {
-  const pageNames = ["Home", "About", "Work", "Contact"];
-
-  const renderNavTab = (page) => {
-    const href = `#${page.toLowerCase()}`;
-    const className = currentPage === page ? "nav-link" : "nav-link";
-    const onClick = () => handlePageChange(page);
-
-    return (
-      <li className="nav-item active" key={page}>
-        <a href={href} onClick={onClick} className={className}>
-          {page}
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-    );
+function Navbar() {
+  const location = useLocation();
+  const linkClassName = (linkPath) => {
+    if (linkPath === location.pathname) {
+      return "nav-link active";
+    }
+    return "nav-link";
   };
 
   return (
@@ -39,7 +35,26 @@ function Navbar({ currentPage, handlePageChange }) {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav mr-auto">
-                {pageNames.map((page) => renderNavTab(page))}
+                <li className="nav-item">
+                  <Link to="/home" className={linkClassName("/home")}>
+                    Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/about" className={linkClassName("/about")}>
+                    About
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/work" className={linkClassName("/work")}>
+                    Work
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/contact" className={linkClassName("/contact")}>
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

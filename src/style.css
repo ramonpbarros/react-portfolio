@@ -1,0 +1,259 @@
+.projectBgc {
+  width: 100%;
+  background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+  height: 500px;
+  animation: body 2s 1;
+}
+
+.imgLogo {
+  height: 150px;
+  width: 150px;
+  margin-left: 2em ;
+  margin-right: 2em;
+  float: left;
+}
+.imgLogoTwo {
+  height: 150px;
+  width: 150px;
+  margin-left: 2em ;
+  margin-right: 2em;
+  float: left;
+  border-radius: 10px;
+}
+.pName {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  display: inline;
+}
+.pDesc {
+  color: white;
+  display: block;
+  font-size: 20px;
+  margin-left: 3em;
+}
+.imgGif {
+  float: right;
+  width: 500px;
+  height: 350px;
+  margin-top: 8em;
+  margin-right: 1em;
+}
+
+/* Gallery */
+.gallery {
+  font-size: 60px;
+  color: white;
+  padding-left: 40px;
+  font-weight: bolder;
+  clear: both;
+  animation: body 2s 1;
+}
+.imgApp {
+  width: 90%;
+  height: 600px;
+  padding-top: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.galleryName {
+  color: white;
+  padding-left: 20px;
+  float: left;
+  font-weight: bold;
+  padding-top: 3em;
+  margin-bottom: 0px;
+}
+.galleryDesc {
+  color: white;
+  padding-right: 20px;
+  float: right;
+  font-weight: bold;
+  padding-top: 3em;
+  margin-bottom: 0px;
+}
+.galleryPath {
+  color: grey;
+  padding-left: 20px;
+  float: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+.galleryCopyright {
+  color: grey;
+  padding-right: 20px;
+  float: right;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* Edits links */
+.linkOne {
+  /* View all projects*/
+  color: #f0860d;
+  padding-top: 100px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+.linkTwo {
+  /* Deployed and repository*/
+  color: #f0860d;
+  font-size: 20px;
+  padding-left: 40px;
+}
+.linkThree {
+  /* View last project*/
+  margin-left: 2em;
+  font-size: 20px;
+  float: left;
+}
+.linkFour {
+  /* View next project*/
+  margin-right: 2em;
+  font-size: 20px;
+  float: right;
+}
+.linkFive {
+  /* Let's talk*/
+  text-align: center;
+  padding-top: 3em;
+  font-size: 20px;
+  clear: both;
+  color: white;
+}
+
+a {
+  color: snow;
+}
+a:hover {
+  color: #f0860d;
+}
+
+
+.gradientRightBgc {
+  width: 100%;
+  background: linear-gradient(to right, #1c204f 0%, #121211 100%);
+  height: 700px;
+}
+
+#webDeveloper {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Helvetica", sans-serif;
+}
+
+/* media screen */
+@media screen and (max-device-width: 975px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+
+  .fonts {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .text1 {
+    animation: text 2s 1;
+  }
+  @keyframes text {
+    0% {
+      color: black;
+      margin-bottom: -200%;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+@media screen and (max-device-width: 600px) {
+
+}
+
+@media screen and (max-device-width: 420px) {
+  .projectBgc {
+    width: 100%;
+    background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+    height: 500px;
+    animation: body 2s 1;
+  }
+
+  .imgLogo {
+    height: 120px;
+    width: 120px;
+    float: left;
+  }
+  .imgLogoTwo {
+    height: 110px;
+    width: 110px;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: 2em;
+  }
+
+  .pName {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 2em;
+  }
+  .pDesc {
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin-top: 2em;
+    clear: both;
+  }
+  .imgGif {
+    display: block;
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    margin-top: 3em;
+  }
+  /* Edits gallery */
+  .gallery {
+    font-size: 60px; 
+    color: white;
+    font-weight: bolder;
+    animation: body 2s 1;
+    margin-top: 7em;
+
+  }
+  .gradientRightBgc {
+    width: 100%;
+    background: linear-gradient(to right, #1c204f 0%, #121211 100%);
+    height: 300px;
+  }
+  .imgApp {
+    width: 90%;
+    height: 240px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2em;
+  }
+  .galleryName {
+    display: none;
+  }
+  .galleryDesc {
+    display: none;
+  }
+  .galleryPath {
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 1em;
+  }
+  .galleryCopyright {
+    display: none;
+  }
+
+  .short-text { display: inline-block; }
+  .full-text { 
+    display: none;
+  }
+}
