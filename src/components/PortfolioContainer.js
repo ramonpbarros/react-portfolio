@@ -14,7 +14,6 @@ import Burger from "./pages/Burger";
 function PortfolioContainer() {
   return (
     <Router>
-      <React.Fragment>
         <Navbar />
         <Route exact path={["/", "/home"]}>
           <Home />
@@ -35,7 +34,6 @@ function PortfolioContainer() {
           <Burger />
         </Route>
         <Footer />
-      </React.Fragment>
     </Router>
     //   <div>
     //     <img src={require("./img/ramon.png")} alt="profileImg" className="profileImg" />
