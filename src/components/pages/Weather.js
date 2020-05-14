@@ -12,20 +12,20 @@ function Weather() {
             </Link>
           </p>
           <img
-            src={require("../img/weatherLogo")}
+            src={require("../img/weather_logo.jpg")}
             alt="weatherLogo"
             className="imgLogoTwo"
           />
-          <p className="pName">Hop over to the nearest Brewery</p>
+          <p className="pName">Weather Forecast</p>
           <p className="pDesc">
-            Application allows user to get information about breweries searching
-            by zip-code and bar type. User is able to save favorite bars to
-            favorites tab and save bars to route tab. On route tab user is able
-            to see a map with the bars displayed on it as well as a list of the
-            same bars.
+            Weather application allows user to get information about current
+            weather as well as forecast of the next five consecutive days by
+            searching cities by name. User can search weather from different
+            cities around the world. Last searched cities will be set to local
+            storage.
           </p>
           <a
-            href="https://ramonpbarros.github.io/bar-hop-webapp/"
+            href="https://ramonpbarros.github.io/weather-forecast/"
             target="_blank"
             className="linkTwo"
           >
@@ -34,7 +34,7 @@ function Weather() {
           <br />
           <br />
           <a
-            href="https://github.com/ramonpbarros/bar-hop-webapp"
+            href="https://github.com/ramonpbarros/weather-forecast"
             target="_blank"
             className="linkTwo"
           >
@@ -43,7 +43,7 @@ function Weather() {
         </div>
         <div className="col-lg-5">
           <img
-            src={require("../img/burger.gif")}
+            src={require("../img/weather.gif")}
             alt="gif"
             className="imgGif"
           />
@@ -55,8 +55,8 @@ function Weather() {
       <div className="container">
         <div className="gradientRightBgc">
           <img
-            src={require("../img/burger.png")}
-            alt="barhop"
+            src={require("../img/weather.png")}
+            alt="weather"
             className="imgApp"
           />
           <p className="galleryName">Ramon Barros</p>
@@ -72,7 +72,7 @@ function Weather() {
                 fontSize: 14
               }}
             >
-              ramonpbarros.me/ <span style={{ color: "white" }}>burger</span>
+              ramonpbarros.me/ <span style={{ color: "white" }}>weather</span>
             </p>
             <p className="galleryCopyright">
               All trademarks &amp; copyrights belong to their respective owners.
@@ -83,22 +83,22 @@ function Weather() {
       </div>
       <div style={{ paddingTop: 5 }}>
         <p className="linkThree full-text">
-          <Link to="/barhop" href="/barhop" style={{ color: "#f0860d" }}>
+          <Link to="/burger" href="/burger" style={{ color: "#f0860d" }}>
             &lt; View last projects
           </Link>
         </p>
         <p className="linkThree short-text">
-          <Link to="/barhop" href="/barhop" style={{ color: "#f0860d" }}>
+          <Link to="/burger" href="/burger" style={{ color: "#f0860d" }}>
             &lt; View last
           </Link>
         </p>
         <p className="linkFour full-text">
-          <Link to="/weather" href="/weather" style={{ color: "#f0860d" }}>
+          <Link to="/barhop" href="/barhop" style={{ color: "#f0860d" }}>
             View next project &gt;
           </Link>
         </p>
         <p className="linkFour short-text">
-          <Link to="/weather" href="/weather" style={{ color: "#f0860d" }}>
+          <Link to="/barhop" href="/barhop" style={{ color: "#f0860d" }}>
             View next &gt;
           </Link>
         </p>

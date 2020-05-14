@@ -21,7 +21,7 @@ function Contact() {
           Let's talk
         </p>
         <p className="paddingLeftHome" style={{ color: "white", fontSize: 18 }}>
-          Get in touch via form below, or by email
+          Get in touch via form below, or by email&nbsp; 
           <a href="mailto:ramonpbarros@gmail.com" style={{ color: "#f0860d" }}>
             ramonpbarros@gmail.com
           </a>

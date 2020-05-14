@@ -1,9 +1,5 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import Home from "../pages/Home"
-import About from "../pages/About"
-import Work from "../pages/Work"
-import Contact from "../pages/Contact"
 
 function Navbar() {
   const location = useLocation();

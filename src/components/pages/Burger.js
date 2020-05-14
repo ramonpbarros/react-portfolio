@@ -16,13 +16,12 @@ function Burger() {
             alt="burgerLogo"
             className="imgLogoTwo"
           />
-          <p className="pName">Hop over to the nearest Brewery</p>
+          <p className="pName">Eat-Da-Burger</p>
           <p className="pDesc">
-            Application allows user to get information about breweries searching
-            by zip-code and bar type. User is able to save favorite bars to
-            favorites tab and save bars to route tab. On route tab user is able
-            to see a map with the bars displayed on it as well as a list of the
-            same bars.
+            A restaurant app that lets users input the names of burgers they'd
+            like to eat. Whenever a user submits a burger's name, the app
+            display the burger on the right side of the page -- waiting to be
+            devoured.
           </p>
           <a
             href="https://peaceful-thicket-33597.herokuapp.com/"

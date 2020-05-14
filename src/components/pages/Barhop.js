@@ -140,18 +140,18 @@ function Barhop() {
             </p>
           </div>
         </div>
-        <br/>
+        <br />
       </div>
       <div style={{ paddingTop: 5 }}>
         <p className="linkThree full-text">
-          <a href="./quiz.html" style={{ color: "#f0860d" }}>
+          <Link to="/weather" href="/weather" style={{ color: "#f0860d" }}>
             &lt; View last projects
-          </a>
+          </Link>
         </p>
         <p className="linkThree short-text">
-          <a href="./quiz.html" style={{ color: "#f0860d" }}>
+          <Link to="/weather" href="/weather" style={{ color: "#f0860d" }}>
             &lt; View last
-          </a>
+          </Link>
         </p>
         <p className="linkFour full-text">
           <Link to="/burger" href="/burger" style={{ color: "#f0860d" }}>
