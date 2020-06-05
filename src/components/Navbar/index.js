@@ -2,13 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
-  const location = useLocation();
-  const linkClassName = (linkPath) => {
-    if (linkPath === location.pathname) {
-      return "nav-link active";
-    }
-    return "nav-link";
-  };
+
 
   return (
     <header className="row header">
@@ -32,22 +26,22 @@ function Navbar() {
             >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <Link to="/home" className={linkClassName("/home")}>
+                  <Link to="/home" >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/about" className={linkClassName("/about")}>
+                  <Link to="/about" >
                     About
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/work" className={linkClassName("/work")}>
+                  <Link to="/work" >
                     Work
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/contact" className={linkClassName("/contact")}>
+                  <Link to="/contact" >
                     Contact
                   </Link>
                 </li>
