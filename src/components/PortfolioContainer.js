@@ -14,35 +14,45 @@ import Burger from "./pages/Burger";
 function PortfolioContainer() {
   return (
     <Router>
-      <Route exact path="/">
-        <Navbar />
-        <Home />
-      </Route>
-      <Route exact path="/home">
-        <Navbar />
-        <Home />
-      </Route>
-      <Route exact path="/about">
-        <Navbar />
-        <About />
-      </Route>
-      <Route exact path="/work">
-        <Navbar />
-        <Work />
-      </Route>
-      <Route exact path="/contact">
-        <Navbar />
-        <Contact />
-      </Route>
-      <Route exact path="/barhop">
-        <Navbar />
-        <Barhop />
-      </Route>
-      <Route exact path="/burger">
-        <Navbar />
-        <Burger />
-      </Route>
-      <Footer />
+      <div>
+        <switch>
+          <Route exact path="/">
+            <Navbar />
+            <Home />
+            <Footer />
+          </Route>
+          <Route exact path="/home">
+            <Navbar />
+            <Home />
+            <Footer />
+          </Route>
+          <Route exact path="/about">
+            <Navbar />
+            <About />
+            <Footer />
+          </Route>
+          <Route exact path="/work">
+            <Navbar />
+            <Work />
+            <Footer />
+          </Route>
+          <Route exact path="/contact">
+            <Navbar />
+            <Contact />
+            <Footer />
+          </Route>
+          <Route exact path="/barhop">
+            <Navbar />
+            <Barhop />
+            <Footer />
+          </Route>
+          <Route exact path="/burger">
+            <Navbar />
+            <Burger />
+            <Footer />
+          </Route>
+        </switch>
+      </div>
     </Router>
   );
 }
