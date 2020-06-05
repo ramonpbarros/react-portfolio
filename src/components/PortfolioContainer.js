@@ -14,35 +14,36 @@ import Burger from "./pages/Burger";
 function PortfolioContainer() {
   return (
     <Router>
-      <Navbar />
       <Route exact path="/">
-        <Redirect>
-          <Home />
-        </Redirect>
+        <Navbar />
+        <Home />
       </Route>
       <Route exact path="/home">
+        <Navbar />
         <Home />
       </Route>
       <Route exact path="/about">
+        <Navbar />
         <About />
       </Route>
       <Route exact path="/work">
+        <Navbar />
         <Work />
       </Route>
       <Route exact path="/contact">
+        <Navbar />
         <Contact />
       </Route>
       <Route exact path="/barhop">
+        <Navbar />
         <Barhop />
       </Route>
       <Route exact path="/burger">
+        <Navbar />
         <Burger />
       </Route>
       <Footer />
     </Router>
-    //   <div>
-    //     <img src={require("./img/ramon.png")} alt="profileImg" className="profileImg" />
-    //   </div>
   );
 }
 
