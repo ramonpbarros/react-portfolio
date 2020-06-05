@@ -5,7 +5,7 @@ function Contact() {
     <React.Fragment>
       <div>
         <img
-          src={require("../img/ramon.png")}
+          src={require("../components/img/ramon.png")}
           alt="profileImg"
           className="profileImg"
         />

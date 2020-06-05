@@ -12,7 +12,7 @@ function Burger() {
             </Link>
           </p>
           <img
-            src={require("../img/burgerLogo.png")}
+            src={require("../components/img/burgerLogo.png")}
             alt="burgerLogo"
             className="imgLogoTwo"
           />
@@ -42,7 +42,7 @@ function Burger() {
         </div>
         <div className="col-lg-5">
           <img
-            src={require("../img/burger.gif")}
+            src={require("../components/img/burger.gif")}
             alt="gif"
             className="imgGif"
           />
@@ -54,7 +54,7 @@ function Burger() {
       <div className="container">
         <div className="gradientRightBgc">
           <img
-            src={require("../img/burger.png")}
+            src={require("../components/img/burger.png")}
             alt="barhop"
             className="imgApp"
           />

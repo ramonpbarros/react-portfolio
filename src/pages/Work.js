@@ -26,14 +26,14 @@ function Work() {
       <div className="animation">
         <div className="jumbotron projectBgc">
           <img
-            src={require("../img/barhop-logo.svg")}
+            src={require("../components/img/barhop-logo.svg")}
             alt="barHopLogo"
             className="barHopLogo"
           />
           <h1 className="display-4 barHopName">BarHop</h1>
           <a href="assets/public/barhop.html">
             <img
-              src={require("../img/barhop.png")}
+              src={require("../components/img/barhop.png")}
               alt="mockup"
               className="imgMock"
             />
@@ -60,7 +60,7 @@ function Work() {
 
         <div className="jumbotron projectBgc">
           <img
-            src={require("../img/burgerLogo.png")}
+            src={require("../components/img/burgerLogo.png")}
             alt="barHopLogo"
             className="weatherLogo"
           />
@@ -68,7 +68,7 @@ function Work() {
           <h1 className="display-4 barHopName short-text">Burger</h1>
           <a href="assets/public/burger.html">
             <img
-              src={require("../img/burger.png")}
+              src={require("../components/img/burger.png")}
               alt="mockup"
               className="imgMock"
             />
@@ -94,7 +94,7 @@ function Work() {
 
         <div className="jumbotron projectBgc">
           <img
-            src={require("../img/weather_logo.jpg")}
+            src={require("../components/img/weather_logo.jpg")}
             alt="barHopLogo"
             className="weatherLogo"
           />
@@ -102,7 +102,7 @@ function Work() {
           <h1 className="display-4 barHopName short-text">WeatherApp</h1>
           <a href="assets/public/weather.html">
             <img
-              src={require("../img/weather.png")}
+              src={require("../components/img/weather.png")}
               alt="mockup"
               className="imgMock"
             />
@@ -128,7 +128,7 @@ function Work() {
 
         <div className="jumbotron projectBgc">
           <img
-            src={require("../img/terminal.svg")}
+            src={require("../components/img/terminal.svg")}
             alt="barHopLogo"
             className="weatherLogo"
           />
@@ -136,7 +136,7 @@ function Work() {
           <h1 className="display-4 barHopName short-text">Employee</h1>
           <a href="assets/public/employee.html">
             <img
-              src={require("../img/employee.png")}
+              src={require("../components/img/employee.png")}
               alt="mockup"
               className="imgMock"
             />
@@ -162,7 +162,7 @@ function Work() {
 
         <div className="jumbotron projectBgc">
           <img
-            src={require("../img/terminal.svg")}
+            src={require("../components/img/terminal.svg")}
             alt="barHopLogo"
             className="weatherLogo"
           />
@@ -170,7 +170,7 @@ function Work() {
           <h1 className="display-4 barHopName short-text">Generator</h1>
           <a href="assets/public/readme.html">
             <img
-              src={require("../img/readmeTwo.png")}
+              src={require("../components/img/readmeTwo.png")}
               alt="mockup"
               className="imgMock"
             />
@@ -195,14 +195,14 @@ function Work() {
 
         <div className="jumbotron projectBgc">
           <img
-            src={require("../img/schedule.png")}
+            src={require("../components/img/schedule.png")}
             alt="barHopLogo"
             className="weatherLogo"
           />
           <h1 className="display-4 barHopName">Scheduler</h1>
           <a href="assets/public/scheduler.html">
             <img
-              src={require("../img/scheduler.png")}
+              src={require("../components/img/scheduler.png")}
               alt="mockup"
               className="imgMock"
             />
@@ -227,14 +227,14 @@ function Work() {
 
         <div className="jumbotron projectBgc">
           <img
-            src={require("../img/quiz.jpg")}
+            src={require("../components/img/quiz.jpg")}
             alt="barHopLogo"
             className="weatherLogo"
           />
           <h1 className="display-4 barHopName">Code Quiz</h1>
           <a href="assets/public/quiz.html">
             <img
-              src={require("../img/codequiz.png")}
+              src={require("../components/img/codequiz.png")}
               alt="mockup"
               className="imgMock"
             />

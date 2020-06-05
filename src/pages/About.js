@@ -5,7 +5,7 @@ function About() {
     <React.Fragment>
       <div>
         <img
-          src={require("../img/ramon.png")}
+          src={require("../components/img/ramon.png")}
           alt="profileImg"
           className="profileImg"
         />
@@ -27,11 +27,6 @@ function About() {
         </p>
         <p className="paddingLeftHome" style={{ color: "white", fontSize: 20 }}>
           I'm Ramon Barros, born and raised in Brazil.
-          <i
-            className="em em-flag-br"
-            aria-role="presentation"
-            aria-label="Brazil Flag"
-          ></i>
         </p>
         <p className="paddingLeftHome" style={{ color: "white", fontSize: 20 }}>
           I've been living in San Diego for the past 12 years and during this

@@ -16,7 +16,7 @@ function Barhop() {
             </Link>
           </p>
           <img
-            src={require("../img/barhop-logo.svg")}
+            src={require("../components/img/barhop-logo.svg")}
             alt="barHopLogo"
             className="imgLogo"
           />
@@ -47,7 +47,7 @@ function Barhop() {
         </div>
         <div className="col-lg-5">
           <img
-            src={require("../img/barhop.gif")}
+            src={require("../components/img/barhop.gif")}
             alt="gif"
             className="imgGif"
           />
@@ -59,7 +59,7 @@ function Barhop() {
       <div className="container">
         <div className="gradientRightBgc">
           <img
-            src={require("../img/barhop.png")}
+            src={require("../components/img/barhop.png")}
             alt="barhop"
             className="imgApp"
           />
@@ -87,7 +87,7 @@ function Barhop() {
         <br />
         <div className="gradientRightBgc">
           <img
-            src={require("../img/barhopfav.png")}
+            src={require("../components/img/barhopfav.png")}
             alt="barhop"
             className="imgApp"
           />
@@ -115,7 +115,7 @@ function Barhop() {
         <br />
         <div className="gradientRightBgc">
           <img
-            src={require("../img/barhoproute.png")}
+            src={require("../components/img/barhoproute.png")}
             alt="barhop"
             className="imgApp"
           />
